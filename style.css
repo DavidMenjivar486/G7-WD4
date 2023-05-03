@@ -1,0 +1,16 @@
+/* GALERIA DE IMAGENES */
+img {
+    max-width: 100%;
+    margin-bottom: 1em;
+    border-radius: 8%;
+    display: block;
+    max-height: auto;
+
+}
+
+.gallery{
+    columns: 6 220px;
+    column-gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
