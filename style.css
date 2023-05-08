@@ -422,7 +422,6 @@ dialog{
         cursor: pointer;
     }
     .interrogation{
-        display: inline-block;
         width: 58px;
         height: 58px;
         box-shadow: 5px 10px 18px #888888;
@@ -431,15 +430,18 @@ dialog{
         margin-right: 0%;
         margin-bottom: 0%;
 	background-color:white;
+	display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .interrogation:hover{
         cursor: pointer;
         
     }
-    .interrogation img{
+    /*.interrogation img{
         margin-top: 17px;
         height: 25px;;
-    }
+    }*/
     .abrir{
         background-color:transparent;
         border:0;
