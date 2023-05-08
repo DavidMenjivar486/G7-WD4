@@ -438,10 +438,9 @@ dialog{
         cursor: pointer;
         
     }
-    /*.interrogation img{
-        margin-top: 17px;
+    .interrogation img{
         height: 25px;;
-    }*/
+    }
     .abrir{
         background-color:transparent;
         border:0;
