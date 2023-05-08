@@ -449,7 +449,6 @@ dialog{
         background-color:gray;
     }
     .footer{
-        position:fixed;
         width:100%;
         height:7vh;
         bottom:0;
