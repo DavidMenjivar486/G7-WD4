@@ -358,3 +358,118 @@ img {
 .optionsbtn:hover {
   opacity: 1;
 }
+dialog{
+        border:0px solid black;
+        background-color:transparent;
+        position:absolute;
+        width:100%;
+        height:100%;        
+
+    }
+    .cerrar{
+        position:fixed;
+        width:100vw;
+        height:100vh;
+        border:0px;
+        margin-left:0;
+        background-color:transparent;
+    }
+    .cerrar:hover{
+        background-color:transparent;
+    }
+    .ask{
+        right: 4vw;
+        bottom: 0vh;
+	    padding: 25px 5px;
+	    margin: 0;
+        
+    }
+    .help{
+        right: 8vw;
+        bottom: 2.5vh;
+        position:absolute;
+        background-color:white;
+        display: inline-block;
+        text-align: center;
+        border-radius: 16px;
+        box-shadow: 3px 3px px #888888;
+        padding: 5px;
+    }
+    .visita{
+        margin: auto;
+        padding: 5px;
+        font-weight: bolder;
+        width: 90%;
+        border-radius: 8px;
+    }
+    .visita:hover{
+        background-color: #e9e9e9;
+        cursor: pointer;
+    }
+    .info{
+        margin-top: 1vh;
+        border-top: 1px solid gray;
+        padding: 10px;
+        color: gray;
+    }
+    .info div:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .info div label:hover{
+        cursor: pointer;
+    }
+    .interrogation{
+        display: inline-block;
+        width: 58px;
+        height: 58px;
+        box-shadow: 5px 10px 18px #888888;
+        text-align: center;
+        border-radius: 100%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .interrogation:hover{
+        cursor: pointer;
+        
+    }
+    .interrogation img{
+        margin-top: 17px;
+        height: 25px;;
+    }
+    .abrir{
+        background-color:transparent;
+        border:0;
+    }
+    .abrir:hover{
+        background-color:transparent;
+        
+    }
+    .abrir:hover >.interrogation{
+        background-color:gray;
+    }
+    .footer{
+        position:fixed;
+        width:100%;
+        height:7vh;
+        bottom:0;
+        left:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer img{
+        
+        width:32px;
+    }
+    footer{
+        left:0;
+        
+    }
+    @media only screen and (max-width: 1011px) {
+        .help{
+            right: 4vw;
+            bottom: 90px;
+        }
+}
+    
